@@ -1,0 +1,1 @@
+This is a library to parse  [Simplefin JSON structures](https://www.simplefin.org/protocol.html) in Ada.  The code is not ready yet and still actively being coded. However I'm dropping it here for people to view.

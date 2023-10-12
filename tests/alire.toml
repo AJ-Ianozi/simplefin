@@ -1,0 +1,15 @@
+name = "simplefin_tests"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["AJ Ianozi"]
+maintainers = ["AJ Ianozi <aj@ianozi.com>"]
+maintainers-logins = ["aj-ianozi"]
+
+executables = ["simplefin_tests"]
+
+[[depends-on]]
+simplefin = "*"
+
+[[pins]]
+simplefin = { path = "../"  }

@@ -1,0 +1,22 @@
+name = "simplefin"
+description = "Library for the SimpleFIN Protocol."
+version = "0.1.0-dev"
+
+authors = ["AJ Ianozi"]
+maintainers = ["AJ Ianozi <aj@ianozi.com>"]
+maintainers-logins = ["AJ-Ianozi"]
+
+# This is for enabling openssl in AWS
+[gpr-set-externals]
+"SOCKET" = "openssl"
+
+#[[pins]]
+#cashe = { path = "../cashe"  }
+
+[[depends-on]]
+gnat = ">=12 & <2000"
+iso = "^2.0.0"
+aws = "^23.0.0"
+vss = "^23.0.0"
+[[depends-on]]
+cashe = "^1.0.0"
